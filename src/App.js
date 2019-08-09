@@ -1,11 +1,11 @@
 import React from 'react';
-import Login from './pages/Login.js'
+import Routes from './routes'
 import './App.css';
 
 
-function App() {
+const App = () => {
   return (
-    <Login />
+    <Routes />
   )
 }
 
