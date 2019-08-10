@@ -15,7 +15,7 @@ const Login = ({ history }) => {
     const response = await api.post('/devs', { username })
 
     const { _id } = response.data
-    console.log(response)
+    //console.log(response)
 
     //props padrão das routes que faz direcionamento
     history.push(`/dev/${_id}`)
