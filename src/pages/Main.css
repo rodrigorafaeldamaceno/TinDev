@@ -72,6 +72,14 @@
 .main-container ul li .buttons button:hover img {
   /*vai subir 5px*/
   transform: translateY(-5px);
-  /*0.2 segundos de transição*/ 
+  /*0.2 segundos de transição*/
   transition: all 0.2s;
+}
+
+.main-container .empty {
+  font-size: 32px;
+  color: #999;
+  font-weight: bold;
+  margin-top: 300px;
+
 }
